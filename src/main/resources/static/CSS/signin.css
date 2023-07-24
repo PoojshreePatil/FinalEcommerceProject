@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+     background-color: rgb(180, 170, 84); 
+}
+/* .topnav1{
+    font-size: larger;
+    text-align: left;
+    justify-content: space-evenly;
+    
+
+} */
+.signin {
+    background-color: #04aa1a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  .container {
+    padding: 16px; */
+    height: 500px;
+    width: 500px;
+    padding-left: 400px;
+    line-height: 2;
+  }
+  .buttons{
+    padding-left: 200px ;
+    text-align: center;
+    height: 100px;
+    width: 160px;
+  }

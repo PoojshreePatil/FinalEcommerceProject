@@ -1,0 +1,40 @@
+
+body{
+    text-align: center;
+     background-color: rgb(96, 177, 21); 
+     background-image: url('https://previews.123rf.com/images/tong25/tong252005/tong25200500015/147555027-summer-shopping-concept-from-small-trolley-and-paper-shopping-bag-on-pastel-pink-background-web.jpg');
+}
+.ad
+{
+    margin-top: 15%;
+    transform: scale(2.5);
+    transition: 200s;
+    line-height: 10;
+}
+
+.image:hover{
+    transform: scale(1.1);
+  }
+  .topnav1{
+    font-size: larger;
+    text-align: left;
+    justify-content: space-evenly;
+
+}
+.topnav2 input{
+    width: 50px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: center;
+    width: 50%;
+    background: white;
+}
+.Items{
+    margin-right: 40px;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

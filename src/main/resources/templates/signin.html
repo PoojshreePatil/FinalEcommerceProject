@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./signin.css"/>
+</head>
+<body>
+  <!-- welcome -->
+    <form action="signuppg" method="post" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+       
+          
+          <label for="name"><b>Name</b></label>
+          <input type="text" id="fname" placeholder="Enter Name" name="fname" required><br>
+          
+          <label for="email"><b>Email</b></label>
+          <input type="text" id="email" placeholder="Enter Email" name="email" required><br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" id="password"placeholder="Enter Password" name="password" required><br>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" id="rpassword"placeholder="Repeat Password" name="psw-repeat" required><br>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label><br>
+    
+      
+          <!-- <div class="buttons">
+            <button type="button" id="cancel" class="cancelbtn">Cancel</button>
+             <input type="submit" value="SignIn"class="signupbtn" onclick="signin()"></input> 
+            
+        </div> -->
+
+        <div class="buttons">
+          <button class="btn btn-primary btn-block mb-4">Sign up </button>
+          <button class="btn btn-primary btn-block mb-4">Cancel</button>
+          <!-- <input type="button" value="SignIn" id="btn" onclick="signin()"></input>
+          <input type="button" value="Cancel" id="btn" onclick="cancel()"></input> -->
+      </div>
+        <script src="../static/Js/signin.js"></script>
+      </form>
+</body>
+</html>
